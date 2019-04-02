@@ -17,7 +17,6 @@ set(GIFLIB_SOURCES
     lib/quantize.c
 )
 
-add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 add_library(gif ${GIFLIB_SOURCES})
 
 if (NOT GIFLIB_SKIP_HEADERS)
